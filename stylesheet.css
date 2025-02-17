@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Bootsandspurs,  ;
+    src: url();
+}
+
+header
+{
+    background-color: black;
+    
+}
+    
+nav li{
+    display: inline;
+
+}
+
+nav a{
+    color: white;
+    padding: 10px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.review{
+    background-color: rgb(148, 145, 145);
+}
+
+.selection{
+    background-color: lightgrey;
+}
+
+.view{
+    background-color: red;
+    padding:5px;
+    border-radius: 5px;
+    color:white;
+}
+
+.sale{
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+    color:white;
+}
+
+.cta-btn{
+    background-color: red;
+    padding:5px;
+    border-radius: 5px;
+    color: white;
+}
+footer{
+    background-color: black;
+    color:white;
+    padding: 10px;
+    text-align: center;
+
+}
