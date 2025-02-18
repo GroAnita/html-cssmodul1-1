@@ -8,9 +8,6 @@ header, footer {
     color: #fff;
     
 }
-footer{
-    text-align: center;;
-}
 
 
 header a{
@@ -22,6 +19,20 @@ header a{
 nav a:hover{
     text-decoration: underline;
 }
+roboto-fontfamily {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+
+p{
+    font-family: "roboto-fontfamily";
+}
+h1, h2
+{font-family: "bootsandspurs";}
+
 
 .review{
     background-color:#e8e8e8;
@@ -37,6 +48,7 @@ nav a:hover{
     border-radius: 5px;
     color:white;
     margin: 20px 0px;
+    text-decoration: none;
 }
 
 .cta-sale{
@@ -44,6 +56,7 @@ nav a:hover{
     padding: 5px 25px 5px 25px;
     border-radius: 5px;
     color:white;
+    text-decoration: none;
 }
 
 .cta-btn{
@@ -51,4 +64,11 @@ nav a:hover{
     padding:5px;
     border-radius: 5px;
     color: white;
+    text-decoration: none;
+}
+cta-btn:hover{
+    text-decoration: underline;
+}
+footer{
+    text-align: center;;
 }
