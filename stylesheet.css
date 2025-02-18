@@ -1,6 +1,13 @@
 @font-face {
-    font-family: Bootsandspurs,  ;
-    src: url(../bootsandspurs.ttf);
+   
+    font-family: Roboto, sans-serif;
+    src: url(../roboto.ttf);
+    font-family: bootsandspurs;
+    src:url(fonts/BootsAndSpurs\ \(1\).ttf) 
+
+}
+body{
+    font-family: "Roboto", sans-serif;
 }
 
 header, footer {
@@ -16,6 +23,10 @@ header a{
     text-decoration: none;
 }
 
+nav li{
+    display: inline;
+}
+
 nav a:hover{
     text-decoration: underline;
 }
@@ -27,21 +38,34 @@ roboto-fontfamily {
     font-variation-settings: "wdth" 100;
   }
 
-p{
-    font-family: "roboto-fontfamily";
-}
-h1, h2
-{font-family: "bootsandspurs";}
 
+h1, h2, .logo
+{font-family: "bootsandspurs";
+    
+}
+
+.hero{
+    background-image: url(images/home-header.jpg);
+    min-height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+
+}
 
 .review{
     background-color:#e8e8e8;
-}
+}s
 
 .featured--products{
     background-color:#fbfbfb;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
-
+.guitarinfo{
+    border-radius: 20%;
+}
 .view{
     background-color: red;
     padding:5px 25px 5px 25px;
@@ -57,6 +81,14 @@ h1, h2
     border-radius: 5px;
     color:white;
     text-decoration: none;
+}
+
+.img-prod{
+    border-radius: 10%;
+}
+
+.profilepic{
+    border-radius: 100%;
 }
 
 .cta-btn{
