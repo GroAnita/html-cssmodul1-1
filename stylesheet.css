@@ -10,6 +10,14 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
+roboto-fontfamily {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+/*Header and Footer info*/
 header, footer {
     background-color: black;
     color: #fff;
@@ -32,6 +40,7 @@ nav li{
 nav a:hover{
     text-decoration: underline;
 }
+
 .btn-nav{
     border: none;
     outline:none;
@@ -39,28 +48,29 @@ nav a:hover{
     background: black;
     cursor: pointer;
 }
+
 .current{
     text-decoration: underline;
 }
+
 .active, .btn-nav:hover{
     background-color: red;
     color:white;
     text-decoration: none;
 }
-roboto-fontfamily {
-    font-family: "Roboto", serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
-  }
+
+footer{
+    text-align: center;;
+}
+
+
 
 
 h1, h2, .logo
 {font-family: "bootsandspurs";
     
 }
-
+/*images*/
 .hero{
     background-image: url(images/home-header.jpg);
     min-height: 70vh;
@@ -70,20 +80,29 @@ h1, h2, .logo
     background-position-y: bottom;
 
 }
+.guitarinfo{
+    border-radius: 20%;
+}
+
+.img-prod{
+    border-radius: 10%;
+}
+
+.profilepic{
+    border-radius: 100%;
+}
 
 .review{
     background-color:#e8e8e8;
-}s
+}
 
 .featured--products{
     background-color:#fbfbfb;
     font-family: Arial, Helvetica, sans-serif;
     
 }
-.guitarinfo{
-    border-radius: 20%;
-}
 
+/*buttons*/
 .submit{
     background-color: red;
     color:white;
@@ -108,16 +127,6 @@ h1, h2, .logo
     text-decoration: none;
 }
 
-.img-prod{
-    border-radius: 10%;
-}
-
-.profilepic{
-    border-radius: 100%;
-}
-
-
-
 .cta-btn{
     background-color: red;
     padding:5px;
@@ -128,9 +137,7 @@ h1, h2, .logo
 cta-btn:hover{
     text-decoration: underline;
 }
-footer{
-    text-align: center;;
-}
+
 
 /*contact page*/
 
