@@ -8,17 +8,40 @@
     <title>Contact</title>
 </head>
 <body>
+    <main>
     <header>
         <a href="index.html" class="logo">Guitar Kings</a>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="guitars.html">Guitars</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="current">Contact</a></li>
             </ul>
         </nav>
      
     </header>
     <h1>Contact info</h1>
+    <section>
+        <form method="post">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email">
+            <label for="guitar">Guitar</label>
+            <input list="guitar" id="guitar-choice" name="guitar-choice">
+            <datalist id="guitar">
+                <option value="Adirondack-Red">Adirondack-Red</option>
+                <option value="Adirondack-blue">Adirondack-blue</option>
+                <option value="Adirondack-green">Adirondack-green</option>
+                <option value="Adirondack-pink">Adirondack-Pink</option>
+            </datalist>
+            <input type="checkbox" id="checkbox"name="checkbox">
+            <label for="checkbox">Sign up for email updates</label>
+            <label for="textarea">Message</label>
+            <textarea id="textarea" name="message" rows="3" cols="30"></textarea>
+            <input type="submit" value="Send Now" class="submit">        </form>
+    </section>
+    </main>
+    <footer> Copyright &copy;</footer>
 </body>
 </html>

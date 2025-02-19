@@ -22,13 +22,30 @@ header a{
     padding: 10px;
     text-decoration: none;
 }
-
+nav ul{
+    padding:0%;
+}
 nav li{
-    display: inline;
+    display: inline-block;
 }
 
 nav a:hover{
     text-decoration: underline;
+}
+.btn-nav{
+    border: none;
+    outline:none;
+    padding: 0px 10px;
+    background: black;
+    cursor: pointer;
+}
+.current{
+    text-decoration: underline;
+}
+.active, .btn-nav:hover{
+    background-color: red;
+    color:white;
+    text-decoration: none;
 }
 roboto-fontfamily {
     font-family: "Roboto", serif;
@@ -66,13 +83,21 @@ h1, h2, .logo
 .guitarinfo{
     border-radius: 20%;
 }
+
+.submit{
+    background-color: red;
+    color:white;
+    
+}
 .view{
+    display: inline-block;
     background-color: red;
     padding:5px 25px 5px 25px;
     border-radius: 5px;
     color:white;
-    margin: 20px 0px;
+    margin: 20px 10px;
     text-decoration: none;
+    
 }
 
 .cta-sale{
@@ -91,6 +116,8 @@ h1, h2, .logo
     border-radius: 100%;
 }
 
+
+
 .cta-btn{
     background-color: red;
     padding:5px;
@@ -103,4 +130,11 @@ cta-btn:hover{
 }
 footer{
     text-align: center;;
+}
+
+/*contact page*/
+
+input, select, textarea{
+    border: 1px solid #000;
+    border-radius: 5px;
 }
